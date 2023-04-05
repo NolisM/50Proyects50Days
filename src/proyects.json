@@ -1,0 +1,29 @@
+{
+  "proyects": [
+    {
+      "img": "expandingCards",
+      "title": "Expanding Cards",
+      "url": "/expandingCards"
+    },
+    {
+      "img": "progressSteps",
+      "title": "Progress Steps",
+      "url": "/progressSteps"
+    },
+    {
+      "img": "rotatingNavigation",
+      "title": "Rotating Navigation",
+      "url": "/rotatingNavigation"
+    },
+    {
+      "img": "hiddenSearch",
+      "title": "Hidden Search Widget",
+      "url": "/hiddenSearch"
+    },
+    {
+      "img": "blurriLoading",
+      "title": "Blurry Loading",
+      "url": "/blurryLoading"
+    }
+  ]
+}
