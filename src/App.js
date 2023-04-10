@@ -7,6 +7,7 @@ import ProyectDay2 from "./components/Proyects/ProgressSteps/proyectDay2"
 import ProyectDay3 from "./components/Proyects/RotatingNavigationAnimation/proyectDay3"
 import HiddenSearch from "./components/Proyects/hiddenSearch/projectDay4"
 import Blurryloading from "./components/Proyects/blurryLoading/proyectDay5"
+import ScrollAnimation from "./components/Proyects/ScrollAnimation/projectDay6"
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route exact path='/rotatingNavigation' element={<ProyectDay3 />} />
           <Route exact path='/hiddenSearch' element={<HiddenSearch />} />
           <Route exact path='/blurryLoading' element={<Blurryloading />} />
+          <Route exact path='/scrollAnimation' element={<ScrollAnimation />} />
         </Routes>
       </Router>
     </div>

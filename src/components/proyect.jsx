@@ -4,6 +4,7 @@ import progressSteps from '../images/progressSteps.png'
 import rotatingNavigation from '../images/rotatingNavigation.png'
 import hiddenSearch from '../images/hiddenSearch.png'
 import blurriLoading from '../images/blurriLoading.png'
+import scrollAnimation from '../images/scrollAnimation.png'
 import './proyect.css'
 
 const images = {
@@ -11,7 +12,8 @@ const images = {
     progressSteps,
     rotatingNavigation,
     hiddenSearch,
-    blurriLoading
+    blurriLoading,
+    scrollAnimation
 
 }
 

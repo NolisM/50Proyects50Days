@@ -24,6 +24,11 @@
       "img": "blurriLoading",
       "title": "Blurry Loading",
       "url": "/blurryLoading"
+    },
+    {
+      "img": "scrollAnimation",
+      "title": "Scroll Animation",
+      "url": "/scrollAnimation"
     }
   ]
 }
