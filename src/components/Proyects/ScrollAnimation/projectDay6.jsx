@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { Link } from "react-router-dom"
 import './proyectDay6.css';
 
 const ProyectDay6 = () => {
@@ -31,6 +32,7 @@ const ProyectDay6 = () => {
 
   return (
     <div className='containerDay6'>
+      <Link className="botonDay6" to='/navbar'>Volver</Link>
       <div className="box" ref={(el) => (boxesRef.current[0] = el)}>
         <h2>Content</h2>
       </div>

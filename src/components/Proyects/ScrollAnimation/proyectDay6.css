@@ -36,3 +36,16 @@
 .box h2 {
     font-size: 45px;
 }
+
+.botonDay6 {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #9b4dca;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

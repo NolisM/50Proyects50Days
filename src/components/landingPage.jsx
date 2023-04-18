@@ -1,15 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './landingPage.css'
 
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className='LandingPage'>
       <div>
-        <h1>Reto de <hr />50 Proyectos en 50 dias</h1>
+        <h1>Retos diarios</h1>
+        <h1>50 Proyectos en 50 dias</h1>
       </div>
       <Link to='/Navbar'>
-        <button>Empecemos!!!</button>
+        <button className='btnLanding'>Empecemos!!!</button>
       </Link>
     </div>
   )

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from "react-router-dom"
 import './proyectDay5.css'
 
 const ProyectDay5 = () => {
@@ -52,7 +53,9 @@ const ProyectDay5 = () => {
           transition: 'opacity 3s ease-in-out',
           opacity: Math.max(1 - loading / 20, 0)
         }}
-      >{loading}%</div>
+      >{loading}%
+      </div>
+      <Link className="botonDay5" to='/navbar'>Volver</Link>
     </div>
   );
 };

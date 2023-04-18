@@ -1,7 +1,6 @@
 import Proyect from './proyect'
 import './proyects.css'
 import proyectos from '../proyects.json'
-import { Link } from 'react-router-dom'
 
 
 const Proyects = () => {
@@ -14,11 +13,11 @@ const Proyects = () => {
       <div className='projects'>
 
         {proyectos.proyects?.map((project) => (
-          // console.log(project)
           <Proyect url={project.url} image={project.img} title={project.title} />
         ))
         }
       </div>
+
     </div >
   )
 }

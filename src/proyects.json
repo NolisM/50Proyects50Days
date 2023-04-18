@@ -29,6 +29,11 @@
       "img": "scrollAnimation",
       "title": "Scroll Animation",
       "url": "/scrollAnimation"
+    },
+    {
+      "img": "splitLandingPage",
+      "title": "Split Landing Pagen",
+      "url": "/splitLandingPage"
     }
   ]
 }

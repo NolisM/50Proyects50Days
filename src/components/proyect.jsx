@@ -5,6 +5,7 @@ import rotatingNavigation from '../images/rotatingNavigation.png'
 import hiddenSearch from '../images/hiddenSearch.png'
 import blurriLoading from '../images/blurriLoading.png'
 import scrollAnimation from '../images/scrollAnimation.png'
+import splitLandingPage from '../images/spliLandingPage.png'
 import './proyect.css'
 
 const images = {
@@ -13,19 +14,17 @@ const images = {
     rotatingNavigation,
     hiddenSearch,
     blurriLoading,
-    scrollAnimation
+    scrollAnimation,
+    splitLandingPage
 
 }
 
 const proyect = ({ url, image, title }) => {
     return (
-        < Link to={url}  >
-            <div className='project' data-message={`${title} `}  >
-                <p>{title}</p>
-                <img src={images[image]} alt='img not found' className='img' />
-                <button>Live Demo</button>
-            </div>
-        </Link>
+        <div className='project' data-message={`${title} `}  >
+            <img src={images[image]} alt='img not found' className='img' />
+            <a href={url}><button>Live Demo</button></a>
+        </div>
     )
 
 }

@@ -1,5 +1,18 @@
-.projects {
+.container {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(270, 12%, 93%);
+    justify-content: center;
+    align-items: center;
 
+}
 
+.projects {
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2px; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }

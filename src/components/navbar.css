@@ -1,5 +1,8 @@
 .navBar {
-    height: 40vh;
+    background: url('imageNavbar2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,9 +14,30 @@
 
 }
 
+.navBar::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    background: rgba(39, 12, 69, 0.9);
+    z-index: 1;
+
+}
+
 .navBar h2 {
     color: rgb(125, 62, 150);
+    font-size: 30px;
+    white-space: nowrap;
+    transition: all 1s ease-out;
+    z-index: 2;
+}
 
+.navBar p {
+    color: rgb(190, 163, 201);
+    font-size: 48px;
+    white-space: nowrap;
+    transition: all 1s ease-out;
+    z-index: 2;
 }
 
 .navBar p {

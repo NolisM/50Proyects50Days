@@ -8,6 +8,7 @@ import ProyectDay3 from "./components/Proyects/RotatingNavigationAnimation/proye
 import HiddenSearch from "./components/Proyects/hiddenSearch/projectDay4"
 import Blurryloading from "./components/Proyects/blurryLoading/proyectDay5"
 import ScrollAnimation from "./components/Proyects/ScrollAnimation/projectDay6"
+import SplitLandingPage from "./components/Proyects/splitLandingPage/projectDay7"
 import './App.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route exact path='/hiddenSearch' element={<HiddenSearch />} />
           <Route exact path='/blurryLoading' element={<Blurryloading />} />
           <Route exact path='/scrollAnimation' element={<ScrollAnimation />} />
+          <Route exact path='/splitLandingPage' element={<SplitLandingPage />} />
         </Routes>
       </Router>
     </div>
